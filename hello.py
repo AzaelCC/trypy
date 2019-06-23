@@ -7,3 +7,9 @@ Created on Sat Jun 22 23:44:31 2019
 
 # hello.py
 print('hello Git!')
+
+# hello.py
+import myname
+
+name = myname.get_name()
+print("hello {}".format(name))
